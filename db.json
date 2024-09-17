@@ -1,0 +1,363 @@
+{
+    "epics": [
+        {
+            "id": 123,
+            "subject": "Gestión de carrito de compras",
+            "description": "Funcionalidad principal para gestionar el carrito de compras en la aplicación.",
+            "owner": {
+                "id": 789,
+                "permalink": "https://tree.taiga.io/profile/sapradi",
+                "username": "sapradi",
+                "full_name": "Andrés Santiago Garcés Pradilla",
+                "email": "jdoe@example.com",
+                "role": "Product Owner",
+                "avatar_url": "https://ca.slack-edge.com/E02KLGDBF9B-U05T33WBVCN-9138573a86a3-512"
+            },
+            "assigned_to_id": 101112,
+            "status": "In Progress",
+            "created_date": "2023-10-01T12:34:56Z",
+            "modified_date": "2023-10-05T08:21:34Z",
+            "tags": [
+                "ecommerce",
+                "carrito"
+            ],
+            "attachments": [
+                {
+                    "id": 1,
+                    "filename": "diagrama_carrito.png",
+                    "url": "https://example.com/attachments/diagrama_carrito.png",
+                    "uploaded_by": 789,
+                    "uploaded_date": "2023-10-01T13:00:00Z"
+                }
+            ],
+            "user_stories": [
+                {
+                    "id": 131415,
+                    "subject": "Agregar artículos al carrito",
+                    "description": "Como usuario, quiero poder agregar artículos a mi carrito de compras.",
+                    "status": "Done",
+                    "assigned_to_id": 101112,
+                    "created_date": "2023-10-02T10:15:30Z",
+                    "modified_date": "2023-10-03T11:22:40Z",
+                    "attachments": [
+                        {
+                            "id": 2,
+                            "filename": "mockup_agregar_carrito.png",
+                            "url": "https://example.com/attachments/mockup_agregar_carrito.png",
+                            "uploaded_by": 101112,
+                            "uploaded_date": "2023-10-02T10:45:00Z"
+                        }
+                    ],
+                    "tasks": [
+                        {
+                            "id": 1,
+                            "subject": "Crear botón de agregar al carrito",
+                            "description": "Implementar el botón de 'Agregar al carrito' en la interfaz de usuario.",
+                            "status": "Done",
+                            "assigned_to_id": 101112,
+                            "created_date": "2023-10-02T10:45:00Z",
+                            "modified_date": "2023-10-02T15:00:00Z",
+                            "attachments": [
+                                {
+                                    "id": 3,
+                                    "filename": "codigo_boton_agregar.js",
+                                    "url": "https://example.com/attachments/codigo_boton_agregar.js",
+                                    "uploaded_by": 101112,
+                                    "uploaded_date": "2023-10-02T11:00:00Z"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "subject": "Desarrollar lógica de backend para agregar al carrito",
+                            "description": "Implementar la lógica del servidor para manejar la adición de artículos al carrito.",
+                            "status": "Done",
+                            "assigned_to_id": 101112,
+                            "created_date": "2023-10-02T11:00:00Z",
+                            "modified_date": "2023-10-02T16:00:00Z",
+                            "attachments": []
+                        }
+                    ]
+                },
+                {
+                    "id": 161718,
+                    "subject": "Eliminar artículos del carrito",
+                    "description": "Como usuario, quiero poder eliminar artículos de mi carrito de compras.",
+                    "status": "In Progress",
+                    "assigned_to_id": 101112,
+                    "created_date": "2023-10-04T09:10:20Z",
+                    "modified_date": "2023-10-05T08:15:25Z",
+                    "attachments": [],
+                    "tasks": [
+                        {
+                            "id": 3,
+                            "subject": "Crear botón de eliminar del carrito",
+                            "description": "Implementar el botón de 'Eliminar del carrito' en la interfaz de usuario.",
+                            "status": "In Progress",
+                            "assigned_to_id": 101112,
+                            "created_date": "2023-10-04T09:30:00Z",
+                            "modified_date": "2023-10-05T08:00:00Z",
+                            "attachments": []
+                        }
+                    ]
+                },
+                {
+                    "id": 192021,
+                    "subject": "Actualizar cantidad de artículos en carrito",
+                    "description": "Como usuario, quiero poder actualizar la cantidad de cada artículo en mi carrito.",
+                    "status": "To Do",
+                    "assigned_to_id": 101113,
+                    "created_date": "2023-10-05T08:30:00Z",
+                    "modified_date": "2023-10-06T09:45:10Z",
+                    "attachments": [],
+                    "tasks": []
+                }
+            ]
+        },
+        {
+            "id": 124,
+            "subject": "Autenticación de usuarios",
+            "description": "Implementar el sistema de registro y autenticación de usuarios.",
+            "owner": {
+                "id": 101112,
+                "username": "matteo",
+                "full_name": "Moisés Mateo Villada Guevara",
+                "email": "moises.villada@globant.com",
+                "role": "Developer",
+                "avatar_url": "https://ca.slack-edge.com/E02KLGDBF9B-U062PCZ1V1C-9ad5d97abbfa-512"
+            },
+            "assigned_to_id": 101113,
+            "status": "To Do",
+            "created_date": "2023-09-25T14:22:33Z",
+            "modified_date": "2023-09-28T09:45:12Z",
+            "tags": [
+                "autenticación",
+                "usuarios"
+            ],
+            "custom_attributes": {
+                "priority": "Medium",
+                "estimated_time": "15 hours"
+            },
+            "attachments": [],
+            "user_stories": [
+                {
+                    "id": 222324,
+                    "subject": "Registro de usuario",
+                    "description": "Como usuario, quiero poder registrarme en la aplicación.",
+                    "status": "To Do",
+                    "assigned_to_id": 101113,
+                    "created_date": "2023-09-26T12:45:00Z",
+                    "modified_date": "2023-09-27T13:50:15Z",
+                    "attachments": [],
+                    "tasks": [
+                        {
+                            "id": 4,
+                            "subject": "Diseñar formulario de registro",
+                            "description": "Crear el formulario de registro en la interfaz de usuario.",
+                            "status": "To Do",
+                            "assigned_to_id": 101113,
+                            "created_date": "2023-09-26T13:00:00Z",
+                            "modified_date": "2023-09-27T14:00:00Z",
+                            "attachments": []
+                        },
+                        {
+                            "id": 5,
+                            "subject": "Implementar lógica de validación de registro",
+                            "description": "Desarrollar la lógica de backend para validar los datos de registro.",
+                            "status": "To Do",
+                            "assigned_to_id": 101113,
+                            "created_date": "2023-09-26T14:00:00Z",
+                            "modified_date": "2023-09-27T15:00:00Z",
+                            "attachments": []
+                        }
+                    ]
+                },
+                {
+                    "id": 252627,
+                    "subject": "Inicio de sesión de usuario",
+                    "description": "Como usuario, quiero poder iniciar sesión en la aplicación.",
+                    "status": "To Do",
+                    "assigned_to_id": 101113,
+                    "created_date": "2023-09-27T14:30:00Z",
+                    "modified_date": "2023-09-28T15:35:20Z",
+                    "attachments": [],
+                    "tasks": [
+                        {
+                            "id": 6,
+                            "subject": "Diseñar formulario de inicio de sesión",
+                            "description": "Crear el formulario de inicio de sesión en la interfaz de usuario.",
+                            "status": "To Do",
+                            "assigned_to_id": 101113,
+                            "created_date": "2023-09-27T15:00:00Z",
+                            "modified_date": "2023-09-28T16:00:00Z",
+                            "attachments": []
+                        },
+                        {
+                            "id": 7,
+                            "subject": "Implementar lógica de autenticación",
+                            "description": "Desarrollar la lógica de backend para autenticar usuarios.",
+                            "status": "To Do",
+                            "assigned_to_id": 101113,
+                            "created_date": "2023-09-27T16:00:00Z",
+                            "modified_date": "2023-09-28T17:00:00Z",
+                            "attachments": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "users": [
+        {
+            "id": 789,
+            "permalink": "https://tree.taiga.io/profile/sapradi",
+            "username": "sapradi",
+            "full_name": "Andrés Santiago Garcés Pradilla",
+            "email": "a.garces@globant.com",
+            "role": "Product Owner",
+            "avatar_url": "https://ca.slack-edge.com/E02KLGDBF9B-U05T33WBVCN-9138573a86a3-512"
+        },
+        {
+            "id": 101112,
+            "username": "matteo",
+            "full_name": "Moisés Mateo Villada Guevara",
+            "email": "moises.villada@globant.com",
+            "role": "Developer",
+            "avatar_url": "https://ca.slack-edge.com/E02KLGDBF9B-U062PCZ1V1C-9ad5d97abbfa-512"
+        },
+        {
+            "id": 101113,
+            "username": "bwang",
+            "full_name": "Bob Wang",
+            "email": "bwang@example.com",
+            "role": "Developer",
+            "avatar_url": "https://example.com/avatars/bwang.png"
+        }
+    ],
+    "user_stories_by_users": [
+        {
+            "user": {
+                "id": 101112,
+                "username": "matteo",
+                "full_name": "Moisés Mateo Villada Guevara",
+                "email": "moises.villada@globant.com",
+                "role": "Developer",
+                "avatar_url": "https://ca.slack-edge.com/E02KLGDBF9B-U062PCZ1V1C-9ad5d97abbfa-512"
+            },
+            "user_stories": [
+                {
+                    "id": 490672,
+                    "System.Url":"https://dev.azure.com/MoisesVilladaGuevara/_apis/projects/173f551d-4dbc-45ad-a888-24030c53a0b8",
+                    "System.AreaPath": "Experimentacion",
+                    "System.TeamProject": "Experimentacion",
+                    "System.IterationPath": "Experimentacion",
+                    "System.WorkItemType": "User Story",
+                    "System.State": "Active",
+                    "System.Reason": "Implementation started",
+                    "System.AssignedTo": {
+                        "displayName": "Moises Villada Guevara"
+                    },
+                    "System.CreatedDate": "2024-09-06T20:16:53.917Z",
+                    "System.CreatedBy": {
+                        "displayName": "Moises Villada Guevara"
+                    },
+                    "System.ChangedDate": "2024-09-06T20:20:55.707Z",
+                    "System.ChangedBy": {
+                        "displayName": "Moises Villada Guevara"
+                    },
+                    "System.Title": "TECH | Dev | Design system | Crear componente registro",
+                    "System.description":"Componente login ",
+                    "Microsoft.VSTS.Common.StateChangeDate": "2024-09-06T20:20:55.707Z",
+                    "Microsoft.VSTS.Common.ActivatedDate": "2024-09-06T20:20:55.707Z",
+                    "Microsoft.VSTS.Common.ActivatedBy": {
+                        "displayName": "Moises Villada Guevara"
+                    },
+                    "Microsoft.VSTS.Common.Priority": 2,
+                    "Microsoft.VSTS.Common.ValueArea": "Business",
+                    "Microsoft.VSTS.Scheduling.RemainingWork": 3,
+                    "Microsoft.VSTS.Scheduling.OriginalEstimate": 12,
+                    "Microsoft.VSTS.Scheduling.CompletedWork": 10
+                },  
+                {
+                    "id": 592345,
+                    "System.Url":"https://dev.azure.com/MoisesVilladaGuevara/_apis/projects/173f551d-4dbc-45ad-a888-24030c53a0b8",
+                    "System.AreaPath": "Experimentacion",
+                    "System.TeamProject": "Experimentacion",
+                    "System.IterationPath": "Experimentacion",
+                    "System.WorkItemType": "User Story",
+                    "System.State": "Active",
+                    "System.Reason": "Implementation started",
+                    "System.AssignedTo": {
+                        "displayName": "Moises Villada Guevara"
+                    },
+                    "System.CreatedDate": "2024-09-06T20:16:53.917Z",
+                    "System.CreatedBy": {
+                        "displayName": "Moises Villada Guevara"
+                    },
+                    "System.ChangedDate": "2024-09-06T20:20:55.707Z",
+                    "System.ChangedBy": {
+                        "displayName": "Moises Villada Guevara"
+                    },
+                    "System.Title": "TECH | Dev | Design system | Crear modulo tal tal",
+                    "System.description":"Modulo tal tal ",
+                    "Microsoft.VSTS.Common.StateChangeDate": "2024-09-06T20:20:55.707Z",
+                    "Microsoft.VSTS.Common.ActivatedDate": "2024-09-06T20:20:55.707Z",
+                    "Microsoft.VSTS.Common.ActivatedBy": {
+                        "displayName": "Moises Villada Guevara"
+                    },
+                    "Microsoft.VSTS.Common.Priority": 2,
+                    "Microsoft.VSTS.Common.ValueArea": "Business",
+                    "Microsoft.VSTS.Scheduling.RemainingWork": 10,
+                    "Microsoft.VSTS.Scheduling.OriginalEstimate": 20,
+                    "Microsoft.VSTS.Scheduling.CompletedWork": 20
+                }
+            ]
+        },
+        {
+            "user": {
+                "id": 101113,
+                "permalink": "https://tree.taiga.io/profile/sapradi",
+                "username": "sapradi",
+                "full_name": "Andrés Santiago Garcés Pradilla",
+                "email": "a.garces@globant.com",
+                "role": "Product Owner",
+                "avatar_url": "https://ca.slack-edge.com/E02KLGDBF9B-U05T33WBVCN-9138573a86a3-512"
+            },
+            "user_stories": [
+                {
+                    "id": 490635,
+                    "System.Url":"https://dev.azure.com/MoisesVilladaGuevara/_apis/projects/173f551d-4dbc-45ad-a888-24030c53a0b8",
+                    "System.AreaPath": "Experimentacion",
+                    "System.TeamProject": "Experimentacion",
+                    "System.IterationPath": "Experimentacion",
+                    "System.WorkItemType": "User Story",
+                    "System.State": "Active",
+                    "System.Reason": "Implementation started",
+                    "System.AssignedTo": {
+                        "displayName": "Andrés Santiago Garcés Pradilla"
+                    },
+                    "System.CreatedDate": "2024-09-06T20:16:53.917Z",
+                    "System.CreatedBy": {
+                        "displayName": "Andrés Santiago Garcés Pradilla"
+                    },
+                    "System.ChangedDate": "2024-09-06T20:20:55.707Z",
+                    "System.ChangedBy": {
+                        "displayName": "Andrés Santiago Garcés Pradilla"
+                    },
+                    "System.Title": "TECH | Dev | Design system | Crear componente acordeon ",
+                    "System.description":"Componente acordeon ",
+                    "Microsoft.VSTS.Common.StateChangeDate": "2024-09-06T20:20:55.707Z",
+                    "Microsoft.VSTS.Common.ActivatedDate": "2024-09-06T20:20:55.707Z",
+                    "Microsoft.VSTS.Common.ActivatedBy": {
+                        "displayName": "Andrés Santiago Garcés Pradilla"
+                    },
+                    "Microsoft.VSTS.Common.Priority": 2,
+                    "Microsoft.VSTS.Common.ValueArea": "Business",
+                    "Microsoft.VSTS.Scheduling.RemainingWork": 6,
+                    "Microsoft.VSTS.Scheduling.OriginalEstimate": 12,
+                    "Microsoft.VSTS.Scheduling.CompletedWork": 3
+                }
+            ]
+        }
+    ]
+}
